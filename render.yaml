@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your_django_app_name
+    name: aauzena
     buildCommand: "./build.sh"
     env: python
     startCommand: "gunicorn aauzena.wsgi:application"
