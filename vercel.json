@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "zena/wsgi.py",
+      "src": "aauzena/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "zena/wsgi.py"
+      "dest": "aauzena/wsgi.py"
     }
   ]
 }
