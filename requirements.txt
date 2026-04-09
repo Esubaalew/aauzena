@@ -9,7 +9,7 @@ idna==3.6
 packaging==23.2
 requests==2.31.0
 soupsieve==2.5
-sqlparse==0.4.4
+sqlparse==0.5.4
 tzdata==2023.3
 urllib3==2.1.0
 whitenoise==6.6.0
